@@ -1,0 +1,27 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "target": "es2015",
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "typeRoots": [
+            "node_modules/@type"
+        ],
+        "paths": {
+            "*": ["node_modules/@types/*", "*"]
+        },
+        "types": [],
+        "emitDecoratorMetadata": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
